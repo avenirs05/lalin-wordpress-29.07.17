@@ -20,21 +20,21 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-// define('DB_NAME', 'lalin');
-// define('DB_USER', 'root');
-// define('DB_PASSWORD', '');
-// define('DB_HOST', 'localhost');
-// define('DB_CHARSET', 'utf8mb4');
-// define('DB_COLLATE', '');
-
-define('DB_NAME', 'u475861');
-define('DB_USER', 'u475861');
-define('DB_PASSWORD', 'Br.e_pE4ECIn7R');
-define('DB_HOST', 'u475861.mysql.masterhost.ru');
+define('DB_NAME', 'lalin');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
-define('WP_HOME', 'http://mobile99.ru');
-define('WP_SITEURL', 'http://mobile99.ru');
+
+// define('DB_NAME', 'u475861');
+// define('DB_USER', 'u475861');
+// define('DB_PASSWORD', 'Br.e_pE4ECIn7R');
+// define('DB_HOST', 'u475861.mysql.masterhost.ru');
+// define('DB_CHARSET', 'utf8mb4');
+// define('DB_COLLATE', '');
+// define('WP_HOME', 'http://mobile99.ru');
+// define('WP_SITEURL', 'http://mobile99.ru');
 
 /**#@+
  * Authentication Unique Keys and Salts.

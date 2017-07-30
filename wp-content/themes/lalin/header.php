@@ -11,14 +11,14 @@
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    <link rel="shortcut icon" href="imgs/fav.png" type="image/png">
     
-    <link href="css/bootstrap.min.css" rel="stylesheet">    
-    <link href="style.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel='stylesheet'>    
+    <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel='stylesheet'>
 
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/functions-my.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.1.1.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/functions-my.js"></script> 
+
 
     <script>    
         $(function () {
@@ -44,20 +44,21 @@
         }
         @font-face {
             font-family: "OpenSansCondensedLight";
-            src: url("fonts/OpenSans-CondLight.ttf") format("truetype");
+            src: url("<?php echo get_template_directory_uri(); ?>/fonts/OpenSans-CondLight.ttf") format("truetype");
             font-style: normal;
             font-weight: normal;  
         }
     </style>
+    <?php wp_head(); ?>
 </head>
 
 <body>
 <?php require_once 'modals.php'; ?>
-
+ 
 <div class="header visible-md-block visible-lg-block">
     <div class="row">
         <div class="col-md-12">
-            <a href="index.php"><img src="imgs/logo.png" alt=""></a>
+            <a href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/imgs/logo.png" alt=""></a>
             <div class="right-side">
                 <div class="phone-digits-wrap">
                     <button class="btn-callback">Обратный звонок</button>
@@ -89,4 +90,7 @@
         </div>
     </div>
 </nav>
+
+
+
 

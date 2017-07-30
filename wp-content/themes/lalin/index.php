@@ -1,4 +1,4 @@
-﻿<?php require_once 'header.php'; ?>  
+﻿<?php get_header(); ?>
 
 <div id="carousel-main-screen" class="carousel slide visible-md-block visible-lg-block" data-ride="carousel">    
   <!-- Indicators -->
@@ -9,7 +9,7 @@
   <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="imgs/slide-02.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/imgs/slide-02.png" alt="">
             <div class="carousel-caption">
                 <h2>Забота о красоте</h2>
                 <span class="bold">Полный комплекс услуг по косметологии</span><br>
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="imgs/slide-01.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/imgs/slide-01.png" alt="">
             <div class="carousel-caption">
                 <h2>Забота о главном</h2>
                 <span>Клиника №1 ЛаЛин специализируется на эстетической (терапевтической) медицине. Приоритетным направлением клиники является <span class="bold">лазерная косметология</span>.</span>
@@ -45,7 +45,7 @@
 <h1 class="main-header visible-xs-block visible-sm-block">Полный комплекс услуг по косметологии</h1>
 <div class="main-screen-mob visible-xs-block visible-sm-block">
     <div class="main-screen-wrap text-center">
-        <img src="imgs/main-screen-mob.jpg" height="120" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/imgs/main-screen-mob.jpg" height="120" alt="">
     </div>
     <div class="services-list-mob">
         <div class="services-text-wrap">                    
@@ -75,7 +75,7 @@
     <div class="action-items-wrap">
         <h4 class="text-center hidden-md hidden-lg"><span class="action-text">АКЦИЯ!</span><br> Спешите успеть!</h4>
         <div class="arrow-wrap text-center">
-            <img class="action-mob-img hidden-md hidden-lg" src="imgs/arrow.png" alt="">
+            <img class="<?php echo get_template_directory_uri(); ?>/action-mob-img hidden-md hidden-lg" src="<?php echo get_template_directory_uri(); ?>/imgs/arrow.png" alt="">
         </div>
 
         <span class="item-action-header hidden-xs hidden-sm">Биоревитализация лица, шеи, декольте</span><br>
@@ -98,7 +98,7 @@
         <span class="hidden-xs hidden-sm">• Разовая процедура — 5 500 руб.</span><br>
         <span class="hidden-xs hidden-sm">• Абонемент 6 процедур (1 зона) — 4 900 руб./процедура</span>          
     </div>
-    <img class="action-bg-img" src="imgs/action-bg.jpg" alt="" width="100%">
+    <img class="action-bg-img" src="<?php echo get_template_directory_uri(); ?>/imgs/action-bg.jpg" alt="" width="100%">
     <div class="actions-text-mob-wrap hidden-md hidden-lg">
         <span class="item-action-header hidden-md hidden-lg">Биоревитализация лица, шеи, декольте</span><br>
         <span class="hidden-md hidden-lg">• 3 процедуры — 12 000 руб.</span><br>
@@ -164,8 +164,12 @@
     <p>Отделение Медицинской косметологии специализируется на эстетической (терапевтической) медицине.</p>
     <p>Нашу клинику посещают мужчины и женщины от 18 лет и до…, впрочем, без ограничения по верхнему пределу.</p>
     <p>Если вы хотите изменить себя, специалисты клиники косметологии ЛаЛин готовы решить все ваши вопросы с максимальным эффектом. Для этого мы имеем все возможности.</p>
-    <a id="all-services" href="page-services.php" target="_blank">Все услуги</a>
-    <a id="our-pride" href="page-our_pride.php" target="_blank">Наша гордость</a><br><br>
+    <p>
+        <a id="all-services" href="page-services.php" target="_blank">Все услуги</a>
+    </p>    
+    <p>
+        <a id="our-pride" href="page-our_pride.php" target="_blank">Наша гордость</a>
+    </p>
     <p>Клиника косметологии «ЛаЛин» специализируется на эстетической (терапевтической) медицине. Нашу клинику посещают мужчины и женщины от 18 лет и до…, впрочем, без ограничения по верхнему пределу. Если вы хотите изменить себя, специалисты клиники косметологии ЛаЛин готовы решить все ваши вопросы с максимальным эффектом. Для этого мы имеем все возможности.</p><br>
     <p class="bold">Для наших посетителей мы предлагаем все самое лучшее:</p>
      • современное косметологическое оборудование<br>
@@ -182,4 +186,4 @@
     <p>Добро пожаловать в клинику косметологии «ЛаЛин»!</p><br>           
 </div>
 
-<?php require_once 'footer.php'; ?> 
+<?php get_footer(); ?> 

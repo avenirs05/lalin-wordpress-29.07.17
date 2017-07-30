@@ -1,3 +1,10 @@
+/*
+Theme Name: ЛаЛин
+Theme URI: http://themes/
+Description: ЛаЛин
+Author: admin
+*/
+
 html {
   overflow-y: scroll;
   overflow-x: auto;
@@ -340,22 +347,13 @@ a {
 }
 
 #btn-get-consult-mob {
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
 	padding-left: 15px;
 	padding-right: 15px;
-	background-color: #fff;
-	border: 1px solid #7B254C;
-	color: #AE3266;
-	border-radius: 5px;
-} 
-
-#btn-get-consult-mob {
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
 	padding: 15px 20px;
 	background-color: #E65C9E;
-	border: 1px solid #7B254C;
+	border: none;
 	color: #FFF;
 	border-radius: 5px;
 	margin-top: 25px;
@@ -982,6 +980,9 @@ table.actions-limf-str {
 		padding-top: 0px;
 		width: 990px;
 		background-color: #F3F3F3;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 18px;
 /* 		background-image: url("imgs/bg-main.png"); */
 	}	
 	.header {
@@ -1038,23 +1039,6 @@ table.actions-limf-str {
 
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
