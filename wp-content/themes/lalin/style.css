@@ -728,6 +728,7 @@ table.actions-limf-str {
 	border-radius: 3px;
 }
 
+
 /*Модальное окно Bootstrap*/
 .modal-title {
 	color: #000000;
@@ -898,6 +899,10 @@ table.actions-limf-str {
 	.head-category-service-wrap {
 		font-size: 16px;
 	}
+	.contacts-wrap {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 }
 
 @media screen and (min-device-width: 360px) {
@@ -1031,7 +1036,10 @@ table.actions-limf-str {
 	.category-service-wrap {
 		margin-bottom: 0;		
 	}
-	
+	.contacts-wrap {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
 }
 
