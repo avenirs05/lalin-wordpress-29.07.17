@@ -1,4 +1,4 @@
-﻿<?php require_once 'header.php'; ?>
+﻿<?php get_header(); ?> 
 
 <h1 class="text-center page-services-header">Для более подробной информации кликните на нужную услугу</h1> 
 <div class="container-fluid categories visible-md-block visible-lg-block">
@@ -161,3 +161,4 @@
 </div> 
 
 <?php require_once 'footer.php'; ?>
+<?php //get_footer(); ?> 

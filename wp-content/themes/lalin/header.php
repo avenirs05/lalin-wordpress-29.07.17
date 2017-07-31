@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="format-detection" content="telephone=no">
     
-    <title>Клиника №1 ЛаЛин</title>
+    <!-- <title>Клиника №1 ЛаЛин</title> -->
+    <title><?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -17,8 +18,7 @@
 
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.1.1.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/functions-my.js"></script> 
-
+    <script src="<?php echo get_template_directory_uri(); ?>/js/functions-my.js"></script>  
 
     <script>    
         $(function () {
@@ -68,10 +68,10 @@
                     </div>
                 </div>
                 <div class="menu-wrapper text-right">
-                    <a href="index.php" target="_blank">Главная</a>
-                    <a href="page-services.php" target="_blank">Услуги</a>
-                    <a href="page-equipment.php" target="_blank">Оборудование</a>
-                    <a href="page-contacts.php" target="_blank">Контакты</a>
+                    <a href="/index.php" target="_blank">Главная</a>
+                    <a href="/services" target="_blank">Услуги</a>
+                    <a href="/equipment" target="_blank">Оборудование</a>
+                    <a href="/contacts" target="_blank">Контакты</a>
                 </div> 
             </div> 
         </div>
