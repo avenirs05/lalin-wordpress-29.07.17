@@ -1,7 +1,7 @@
 <h2 class="category-header-sidebar">Услуги</h2>
 <div class="category-content-wrap">
     <div class="category-wrap">
-        <a href="services-laser_cosmetology" class="category-name">Лазерная косметология</a>
+        <a href="laser_cosmetology" class="category-name">Лазерная косметология</a>
         <ul id="laser-cosmetology" style="display: none;">
             <li id="rejuve-skin-damage"><a href="services-laser_cosmetology-laser_rejuve_skin_damage" class="category-item">Глубокое лазерное омоложение с повреждением кожи</a></li>
             <li id="rejuve-no-skin-damage"><a href="services-laser_cosmetology-laser_rejuve_no_skin_damage" class="category-item">Глубокое лазерное омоложение без повреждения кожи</a></li>
@@ -14,7 +14,7 @@
     </div>
     
     <div class="category-wrap">
-        <a href="services-figure_correction" class="category-name">Коррекция фигуры, целлюлит</a>
+        <a href="figure_correction" class="category-name">Коррекция фигуры, целлюлит</a>
         <ul id="figure-correction" style="display: none;">        
             <li id="weight-loss"><a href="services-figure_correction-weight_loss" class="category-item">Комплексные программы по снижению веса</a></li>
             <li id="press-therapy"><a href="services-figure_correction-press_therapy" class="category-item">Прессотерапия</a></li>
@@ -25,7 +25,7 @@
     </div>
     
     <div class="category-wrap">
-        <a href="services-injection_cosmetology" class="category-name">Инъекционная косметология</a>
+        <a href="injection_cosmetology" class="category-name">Инъекционная косметология</a>
         <ul id="injection-cosmetology" style="display: none;">        
             <li id="biorevitalization"><a href="services-injection_cosmetology-biorevitalization" class="category-item">Биоревитализация</a></li>
             <li id="botox-dysport"><a href="services-injection_cosmetology-botox_dysport" class="category-item">Ботокс, Диспорт</a></li>
@@ -37,7 +37,7 @@
     </div>
     
     <div class="category-wrap">
-        <a href="services-remove_skin_novelties" class="category-name">Удаление новообразований кожи</a>
+        <a href="remove_skin_novelties" class="category-name">Удаление новообразований кожи</a>
         <ul id="remove-skin-novelties" style="display: none;">        
             <li id ="cryodestruction"><a href="services-remove_skin_novelties-cryodestruction" class="category-item">Криодеструкция</a></li>
             <li id ="laser-removal"><a href="services-remove_skin_novelties-laser_removal" class="category-item">Лазерное удаление</a></li>
@@ -45,7 +45,7 @@
     </div>
     
     <div class="category-wrap">
-        <a href="services-epilation" class="category-name">Эпиляция</a>
+        <a href="epilation" class="category-name">Эпиляция</a>
         <ul id="epilation" style="display: none;">        
             <li id="laser-epilation"><a href="services-epilation-laser_epilation" class="category-item">Лазерная эпиляция</a></li>
             <li id="photo-epilation"><a href="services-epilation-photo_epilation" class="category-item">Фотоэпиляция</a></li>
@@ -53,7 +53,7 @@
     </div>
     
     <div class="category-wrap">
-        <a href="services-esthetic_cosmetology" class="category-name">Эстетическая косметология</a>
+        <a href="esthetic_cosmetology" class="category-name">Эстетическая косметология</a>
         <ul id="esthetic-cosmetology" style="display: none;">        
             <li id="cosmetic-care"><a href="services-esthetic_cosmetology-cosmetic_care" class="category-item">Косметический уход</a></li>
             <li id="cryotherapy"><a href="services-esthetic_cosmetology-cryotherapy" class="category-item">Криотерапия</a></li>

@@ -14,27 +14,27 @@ function sidebarServicesChangeColor () {
 	var color = '#AE3266';
 
 	// Основные категории
-	if ( location.match(/services-laser_cosmetology/) ) { 
+	if ( location.match(/services\/laser_cosmetology/) ) { 
 		$('#laser-cosmetology').show(); 
 		$('#laser-cosmetology').prev().css('color', color);
 	} 
-	if ( location.match(/services-epilation/) ) { 
+	if ( location.match(/services\/epilation/) ) { 
 		$('#epilation').show(); 
 		$('#epilation').prev().css('color', color);
 	} 
-	if ( location.match(/services-esthetic_cosmetology/) ) { 
+	if ( location.match(/services\/esthetic_cosmetology/) ) { 
 		$('#esthetic-cosmetology').show(); 
 		$('#esthetic-cosmetology').prev().css('color', color);
 	} 
-	if ( location.match(/services-figure_correction/) ) { 
+	if ( location.match(/services\/figure_correction/) ) { 
 		$('#figure-correction').show();
 		$('#figure-correction').prev().css('color', color);
 	} 
-	if ( location.match(/services-injection_cosmetology/) ) { 
+	if ( location.match(/services\/injection_cosmetology/) ) { 
 		$('#injection-cosmetology').show(); 
 		$('#injection-cosmetology').prev().css('color', color);
 	} 
-	if ( location.match(/services-remove_skin_novelties/) ) { 
+	if ( location.match(/services\/remove_skin_novelties/) ) { 
 		$('#remove-skin-novelties').show(); 
 		$('#remove-skin-novelties').prev().css('color', color);
 	} 
@@ -44,7 +44,7 @@ function sidebarServicesChangeColor () {
 	// Подкатегории
 
 	// Лазерная косметология
-	if ( location.match(/services-laser_cosmetology-laser_rejuve_skin_damage/) ) { 
+	if ( location.match(/services\/laser_cosmetology\/laser_rejuve_skin_damage/) ) { 
 		 $('#rejuve-skin-damage, #rejuve-skin-damage a').css('color', color);
 	}
 	if ( location.match(/services-laser_cosmetology-laser_rejuve_no_skin_damage/) ) { 
@@ -69,7 +69,7 @@ function sidebarServicesChangeColor () {
 
 
 	// Коррекция фигуры, целлюлит
-	if ( location.match(/services-figure_correction-weight_loss/) ) { 
+	if ( location.match(/services\/figure_correction\/weight_loss/) ) { 
 		 $('#weight-loss, #weight-loss a').css('color', color);
 	}
 	if ( location.match(/services-figure_correction-press_therapy/) ) { 
@@ -88,28 +88,28 @@ function sidebarServicesChangeColor () {
 
 
 	// Инъекционная косметология
-	if ( location.match(/services-injection_cosmetology-biorevitalization/) ) { 
+	if ( location.match(/services\/injection_cosmetology\/biorevitalization/) ) { 
 		 $('#biorevitalization, #biorevitalization a').css('color', color);
 	}
-	if ( location.match(/services-injection_cosmetology-botox_dysport/) ) { 
+	if ( location.match(/services\/injection_cosmetology\/botox_dysport/) ) { 
 		 $('#botox-dysport, #botox-dysport a').css('color', color);
 	}
-	if ( location.match(/services-injection_cosmetology-change_lips/) ) { 
+	if ( location.match(/services\/injection_cosmetology\/change_lips/) ) { 
 		 $('#change-lips, #change-lips a').css('color', color);
 	}
-	if ( location.match(/services-injection_cosmetology-contour_plastic/) ) { 
+	if ( location.match(/services\/injection_cosmetology\/contour_plastic/) ) { 
 		 $('#contour-plastic, #contour-plastic a').css('color', color);
 	}
-	if ( location.match(/services-injection_cosmetology-mesotherapy/) ) { 
+	if ( location.match(/services\/injection_cosmetology\/mesotherapy/) ) { 
 		 $('#mesotherapy, #mesotherapy a').css('color', color);
 	}
-	if ( location.match(/services-injection_cosmetology-plazmolifting/) ) { 
+	if ( location.match(/services\/injection_cosmetology\/plazmolifting/) ) { 
 		 $('#plazmolifting, #plazmolifting a').css('color', color);
 	}
 	// Инъекционная косметология
 
 	// Удаление новообразований кожи
-	if ( location.match(/services-remove_skin_novelties-cryodestruction/) ) { 
+	if ( location.match(/services\/remove_skin_novelties\/cryodestruction/) ) { 
 		 $('#cryodestruction, #cryodestruction a').css('color', color);
 	}
 	if ( location.match(/services-remove_skin_novelties-laser_removal/) ) { 
@@ -118,7 +118,7 @@ function sidebarServicesChangeColor () {
 	// Удаление новообразований кожи
 
 	// Эпиляция
-	if ( location.match(/services-epilation-laser_epilation/) ) { 
+	if ( location.match(/services\/epilation\/laser_epilation/) ) { 
 		 $('#laser-epilation, #laser-epilation a').css('color', color);
 	}
 	if ( location.match(/services-epilation-photo_epilation/) ) { 
@@ -127,7 +127,7 @@ function sidebarServicesChangeColor () {
 	// Эпиляция
 
 	//Эстетическая косметология
-	if ( location.match(/services-esthetic_cosmetology-cosmetic_care/) ) { 
+	if ( location.match(/services\/esthetic_cosmetology\/cosmetic_care/) ) { 
 		 $('#cosmetic-care, #cosmetic-care a').css('color', color);
 	}
 	if ( location.match(/services-esthetic_cosmetology-cryotherapy/) ) { 
@@ -147,22 +147,22 @@ function sidebarEquipmentChangeColor () {
 	var location = window.location.href;
 	var color = '#AE3266';
 
-	if ( location.match(/equipment-dot_rejuve/) ) { 
+	if ( location.match(/equipment\/dot_rejuve/) ) { 
 		$('#dot-rejuve').css('color', color);
 	} 
-	if ( location.match(/equipment-dot_therapy/) ) { 
+	if ( location.match(/equipment\/dot_therapy/) ) { 
 		$('#dot-therapy').css('color', color);
 	} 
-	if ( location.match(/equipment-fractional_rejuve/) ) { 
+	if ( location.match(/equipment\/fractional_rejuve/) ) { 
 		$('#fractional-rejuve').css('color', color);
 	} 
-	if ( location.match(/equipment-laser_epilation/) ) { 
+	if ( location.match(/equipment\/laser_epilation/) ) { 
 		$('#laser-epilation').css('color', color);
 	} 
-	if ( location.match(/equipment-laser_removal_of_vessels/) ) { 
+	if ( location.match(/equipment\/laser_removal_of_vessels/) ) { 
 		$('#laser-removal-of-vessels').css('color', color);
 	} 
-	if ( location.match(/equipment-strii/) ) { 
+	if ( location.match(/equipment\/strii/) ) { 
 		$('#strii').css('color', color);
 	}
 } 

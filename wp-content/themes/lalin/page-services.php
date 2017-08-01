@@ -5,11 +5,11 @@
     <div class="row">
         <div class="col-md-4">
         	<div class="category-service-wrap">
-        		<a href="services-injection_cosmetology" target="_blank">
+        		<a href="injection_cosmetology" target="_blank">
         			<h4 class="head-category-service-wrap text-center">Инъекционная косметология</h4>
         		</a>
         		<ul>        			
-					<a href="services-injection_cosmetology-biorevitalization" target="_blank"><li>Биоревитализация</li></a>
+					<a href="biorevitalization" target="_blank"><li>Биоревитализация</li></a>
 					<a href="services-injection_cosmetology-botox_dysport" target="_blank"><li>Ботокс, Диспорт</li></a>
 					<a href="services-injection_cosmetology-change_lips" target="_blank"><li>Изменение формы и объема губ</li></a>
 					<a href="services-injection_cosmetology-contour_plastic" target="_blank"><li>Контурная пластика</li></a>
@@ -20,7 +20,7 @@
         </div>
         <div class="col-md-4">
         	<div class="category-service-wrap">
-	        	<a href="services-figure_correction" target="_blank">
+	        	<a href="figure_correction" target="_blank">
 	        		<h4 class="head-category-service-wrap text-center">Коррекция фигуры, целлюлит</h4>
 	        	</a>
 				<ul>					
@@ -34,7 +34,7 @@
         </div>
         <div class="col-md-4">
         	<div class="category-service-wrap">
-	        	<a href="services-laser_cosmetology" target="_blank">
+	        	<a href="laser_cosmetology" target="_blank">
 	        		<h4 class="head-category-service-wrap text-center">Лазерная косметология</h4>
 	        	</a>
 				<ul>					
@@ -52,7 +52,7 @@
     <div class="row">
         <div class="col-md-4">
         	<div class="category-service-wrap">
-	        	<a href="services-remove_skin_novelties" target="_blank">
+	        	<a href="remove_skin_novelties" target="_blank">
 	        		<h4 class="head-category-service-wrap text-center">Удаление новообразований кожи</h4>
 	        	</a>
 				<ul>					
@@ -63,7 +63,7 @@
         </div>
         <div class="col-md-4">
         	<div class="category-service-wrap">
-	        	<a href="services-epilation" target="_blank">
+	        	<a href="epilation" target="_blank">
 	        		<h4 class="head-category-service-wrap text-center">Эпиляция</h4>
 	        	</a>
 				<ul>					
@@ -74,7 +74,7 @@
         </div>
         <div class="col-md-4">
         	<div class="category-service-wrap">
-	        	<a href="services-esthetic_cosmetology" target="_blank">
+	        	<a href="esthetic_cosmetology" target="_blank">
 	        		<h4 class="head-category-service-wrap text-center">Эстетическая косметология</h4>
 	        	</a>
 				<ul>
@@ -90,7 +90,7 @@
 
 <div id="categories-mob" class="container-fluid categories visible-xs-block visible-sm-block">
 	<div class="category-service-wrap">
-		<a href="services-injection_cosmetology" target="_blank">
+		<a href="injection_cosmetology" target="_blank">
 			<h4 class="head-category-service-wrap text-center">Инъекционная косметология</h4>
 		</a>
 		<ul>        			
@@ -103,7 +103,7 @@
 		</ul>
 	</div>
 	<div class="category-service-wrap">
-		<a href="services-figure_correction" target="_blank">
+		<a href="figure_correction" target="_blank">
 			<h4 class="head-category-service-wrap text-center">Коррекция фигуры, целлюлит</h4>
 		</a>
 		<ul>        			
@@ -115,7 +115,7 @@
 		</ul>
 	</div>
 	<div class="category-service-wrap">
-		<a href="services-laser_cosmetology" target="_blank">
+		<a href="laser_cosmetology" target="_blank">
 			<h4 class="head-category-service-wrap text-center">Лазерная косметология</h4>
 		</a>
 		<ul>					
@@ -129,7 +129,7 @@
 		</ul>
 	</div>
 	<div class="category-service-wrap">
-		<a href="services-remove_skin_novelties" target="_blank">
+		<a href="remove_skin_novelties" target="_blank">
 			<h4 class="head-category-service-wrap text-center">Удаление новообразований кожи</h4>
 		</a>
 		<ul>					
@@ -138,7 +138,7 @@
 		</ul>
 	</div>
 	<div class="category-service-wrap">
-		<a href="services-epilation" target="_blank">
+		<a href="epilation" target="_blank">
 			<h4 class="head-category-service-wrap text-center">Эпиляция</h4>
 		</a>
 		<ul>					
@@ -147,7 +147,7 @@
 		</ul>
 	</div>
 	<div class="category-service-wrap">
-		<a href="services-esthetic_cosmetology" target="_blank">
+		<a href="esthetic_cosmetology" target="_blank">
 			<h4 class="head-category-service-wrap text-center">Эстетическая косметология</h4>
 		</a>
 		<ul>
