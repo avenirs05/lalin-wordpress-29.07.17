@@ -6,10 +6,23 @@
         	<?php require_once 'sidebar.php'; ?>
         </div>
         <div class="col-md-8 page-content">
-        	Биоревитализация
-        	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem
+        	<?php 
+        	    $contentOfPage = get_page_by_title('Биоревитализация');
+        	    echo $contentOfPage->post_content; // контент страницы
+        	?>
+        	<p><a id="price" href="price" target="_blank">Стоимость услуг</a></p>
         </div>
     </div>
 </div> 
+
+<div class="container-fluid visible-xs-block visible-sm-block">
+	<?php 
+	    $contentOfPage = get_page_by_title('Биоревитализация');
+	    echo $contentOfPage->post_content; // контент страницы
+	?>
+	<p id="price"><a href="price" target="_blank">Стоимость услуг</a></p>
+</div>
+
+
 
 <?php require_once 'footer.php'; ?>

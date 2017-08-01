@@ -722,12 +722,28 @@ table.actions-limf-str {
 	margin-right: 20px;
 }
 
+#price {
+	margin-bottom: 20px;
+}
+
 #our-pride {
 	background-color: #E65C9E; 
 	color: #fff;
 	padding-left: 15px;
 	padding-right: 15px;
 	border-radius: 3px;
+}
+
+.first-img-page {
+	float: left;
+	margin-right: 15px;
+}
+
+.inquiry {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 10px;
+	color: rgb(174, 50, 102);
 }
 
 
@@ -905,6 +921,14 @@ table.actions-limf-str {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.first-img-page {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    float: none;
+	}
 }
 
 @media screen and (min-device-width: 360px) {
@@ -979,6 +1003,14 @@ table.actions-limf-str {
 	}
 	.price-page table tr th {
 		font-size: 16px;
+	}
+	.first-img-page {
+		display: inline-block;
+		float: left;
+	    margin-left: none;
+	    margin-right: 15px;;
+	    margin-top: 0;
+	    margin-bottom: 0;
 	}
 }
 
