@@ -16,8 +16,8 @@
         	</a>
         </div>
         <div class="col-md-4">
-        	<a href="laser_epilation" class="category-service-wrap" target="_blank">
-        		<h4 class="head-category-service-wrap text-center">Лазерная эпиляция</h4>
+        	<a href="neodim_epil_laser" class="category-service-wrap" target="_blank">
+        		<h4 class="head-category-service-wrap text-center">Эпиляция неодимовым лазером</h4>
 				<div id="laser-epil-img-wrap"  class="img-equipment-wrap"></div>
         	</a>
         </div>
@@ -53,8 +53,8 @@
 		<h4 class="head-category-service-wrap text-center">DOT-терапия</h4>
 		<div id="dot-therapy-img-wrap" class="img-equipment-wrap"></div>
 	</a>
-	<a href="laser_epilation" class="category-service-wrap" target="_blank">
-		<h4 class="head-category-service-wrap text-center">Лазерная эпиляция</h4>
+	<a href="neodim_epil_laser" class="category-service-wrap" target="_blank">
+		<h4 class="head-category-service-wrap text-center">Эпиляция неодимовым лазером</h4>
 		<div id="laser-epil-img-wrap"  class="img-equipment-wrap"></div>
 	</a>
 	<a href="laser_removal_of_vessels" class="category-service-wrap" target="_blank">

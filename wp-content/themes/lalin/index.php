@@ -75,7 +75,7 @@
     <div class="action-items-wrap">
         <h4 class="text-center hidden-md hidden-lg"><span class="action-text">АКЦИЯ!</span><br> Спешите успеть!</h4>
         <div class="arrow-wrap text-center">
-            <img class="<?php echo get_template_directory_uri(); ?>/action-mob-img hidden-md hidden-lg" src="<?php echo get_template_directory_uri(); ?>/imgs/arrow.png" alt="">
+            <img class="action-mob-img hidden-md hidden-lg" src="<?php echo get_template_directory_uri(); ?>/imgs/arrow.png" alt="">
         </div>
 
         <span class="item-action-header hidden-xs hidden-sm">Биоревитализация лица, шеи, декольте</span><br>
@@ -163,7 +163,8 @@
     <?php 
         $contentOfPage = get_page_by_title('Главная');
         echo $contentOfPage->post_content; // контент страницы
-    ?>        
+    ?> 
+    <p class="visible-md-block visible-lg-block">&nbsp;</p>       
 </div>
 
 <?php get_footer(); ?> 

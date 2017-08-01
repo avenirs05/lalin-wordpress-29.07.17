@@ -7,7 +7,7 @@
         <a id="dot-therapy" href="dot_therapy" class="category-name">DOT-терапия</a>
     </div>
     <div class="category-wrap">
-        <a id="laser-epilation" href="laser_epilation" class="category-name">Лазерная эпиляция</a>
+        <a id="neodim-epil-laser" href="neodim_epil_laser" class="category-name">Эпиляция неодимовым лазером</a>
     </div>
     <div class="category-wrap">
         <a id="laser-removal-of-vessels" href="laser_removal_of_vessels" class="category-name">Лазерное удаление сосудов</a>

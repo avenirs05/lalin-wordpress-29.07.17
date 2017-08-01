@@ -581,12 +581,11 @@ table.actions-limf-str {
 
 
 .sidebar {
-	font-size: 16px;
-	padding-left: 0;
-	padding-right: 0;
+/*	padding-left: 0;
+	padding-right: 0;*/
 	/*height: 470px;*/
-	font-size: 16px;
-	background-color: #fff;
+	font-size: 15px;
+	/*background-color: #fff;*/
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
@@ -621,6 +620,9 @@ table.actions-limf-str {
 
 .category-content-wrap {
 	padding: 20px;
+	background-color: #fff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 #equip-category-service-wrap .head-category-service-wrap,
