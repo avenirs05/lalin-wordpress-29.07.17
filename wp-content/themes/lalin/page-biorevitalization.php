@@ -6,7 +6,7 @@
         	<?php require_once 'sidebar.php'; ?>
         </div>
         <div class="col-md-8 page-content">
-        	<?php $contentOfPage = get_page_by_title('Биоревитализация'); ?>
+            <?php $contentOfPage = get_page_by_path('services/injection_cosmetology/biorevitalization'); ?>
 			<h1 class="head-article">
 				<?php echo $contentOfPage->post_title; ?>
 			</h1>
@@ -17,6 +17,9 @@
 </div> 
 
 <div class="container-fluid visible-xs-block visible-sm-block">
+    <h1 class="head-article text-center">
+        <?php echo $contentOfPage->post_title; ?>
+    </h1>
 	<?php echo $contentOfPage->post_content; ?>
 	<p id="price"><a href="price" target="_blank">Стоимость услуг</a></p>
 </div>

@@ -6,7 +6,7 @@
             <?php require_once 'sidebar.php'; ?>
         </div>
         <div class="col-md-8 page-content">
-            <?php $contentOfPage = get_page_by_title('Контурная пластика'); ?>
+            <?php $contentOfPage = get_page_by_path('services/injection_cosmetology/contour_plastic'); ?>
             <h1 class="head-article">
                 <?php echo $contentOfPage->post_title; ?>
             </h1>

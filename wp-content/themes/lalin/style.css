@@ -737,7 +737,7 @@ table.actions-limf-str {
 
 .first-img-page {
 	float: left;
-	margin-right: 15px;
+	margin-right: 10px;
 	width: 180px;
 	height: 168px;	
 }
@@ -958,7 +958,6 @@ table.actions-limf-str {
 	    margin-top: 10px;
 	    margin-bottom: 10px;
 	    float: none;
-	    /*border-radius: 10px;*/
 	}
 	.head-article {
 		margin-top: 20px;
@@ -1040,20 +1039,10 @@ table.actions-limf-str {
 	.price-page table tr th {
 		font-size: 16px;
 	}
-	.first-img-page {
-		display: inline-block;
-		float: left;
-	    margin-left: none;
-	    margin-right: 15px;;
-	    margin-top: 0;
-	    margin-bottom: 0;
-	}
-
 	.right-img-page {
 		display: inline-block;
 		float: right;
-	    /*margin-right: none;*/
-	    margin-left: 15px;;
+	    margin-left: 10px;;
 	    margin-top: 0;
 	    margin-bottom: 0;
 	}
@@ -1124,6 +1113,14 @@ table.actions-limf-str {
 		margin-bottom: 20px;
 		color: rgb(174, 50, 102);
 		font-size: 32px;
+	}
+	.first-img-page {
+		display: inline-block;
+		float: left;
+	    margin-left: none;
+	    margin-right: 10px;;
+	    margin-top: 0;
+	    margin-bottom: 0;
 	}
 
 }
