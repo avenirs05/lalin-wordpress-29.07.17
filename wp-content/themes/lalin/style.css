@@ -585,6 +585,7 @@ table.actions-limf-str {
 	padding-right: 0;*/
 	/*height: 470px;*/
 	font-size: 15px;
+	margin-bottom: 30px;
 	/*background-color: #fff;*/
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -645,7 +646,7 @@ table.actions-limf-str {
 	background-image: url("imgs/equipment/dot-rejuve.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 268px;
+	height: 270px;
 	width: 100%;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -655,7 +656,7 @@ table.actions-limf-str {
 	background-image: url("imgs/equipment/dot-therapy.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 268px;
+	height: 270px;
 	width: 100%;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -665,7 +666,7 @@ table.actions-limf-str {
 	background-image: url("imgs/equipment/laser-epilation.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 268px;
+	height: 270px;
 	width: 100%;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -675,7 +676,7 @@ table.actions-limf-str {
 	background-image: url("imgs/equipment/laser-removal-of-vessels.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 268px;
+	height: 270px;
 	width: 100%;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -685,7 +686,7 @@ table.actions-limf-str {
 	background-image: url("imgs/equipment/strii.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 268px;
+	height: 270px;
 	width: 100%;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -695,14 +696,14 @@ table.actions-limf-str {
 	background-image: url("imgs/equipment/fractional-rejuve.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 268px;
+	height: 270px;
 	width: 100%;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
 
 .page-content {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .category-service-wrap > a:hover {
@@ -737,6 +738,8 @@ table.actions-limf-str {
 .first-img-page {
 	float: left;
 	margin-right: 15px;
+	width: 180px;
+	height: 168px;	
 }
 
 .inquiry {
@@ -744,6 +747,24 @@ table.actions-limf-str {
 	padding: 15px;
 	border-radius: 10px;
 	color: rgb(174, 50, 102);
+}
+
+.head-article {
+	margin-top: -5px;
+	margin-bottom: 20px;
+	color: rgb(174, 50, 102);
+	font-size: 32px;
+}
+
+.img-item-in-article {
+/*	margin-left: 5px;
+	margin-right: 5px;*/
+	border-radius: 10px;
+	margin: 5px;	
+}
+
+.page-content img {
+	/*border-radius: 10px;*/
 }
 
 
@@ -928,6 +949,21 @@ table.actions-limf-str {
 	    margin-top: 10px;
 	    margin-bottom: 10px;
 	    float: none;
+	    border-radius: 10px;
+	}
+	.right-img-page {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    float: none;
+	    /*border-radius: 10px;*/
+	}
+	.head-article {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 24px;
 	}
 }
 
@@ -1012,6 +1048,15 @@ table.actions-limf-str {
 	    margin-top: 0;
 	    margin-bottom: 0;
 	}
+
+	.right-img-page {
+		display: inline-block;
+		float: right;
+	    /*margin-right: none;*/
+	    margin-left: 15px;;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	}
 }
 
 @media screen and (min-device-width: 992px) {
@@ -1073,6 +1118,12 @@ table.actions-limf-str {
 	.contacts-wrap {
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+	.head-article {
+		margin-top: -5px;
+		margin-bottom: 20px;
+		color: rgb(174, 50, 102);
+		font-size: 32px;
 	}
 
 }
