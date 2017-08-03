@@ -22,10 +22,10 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-                <a href="index.php" class="item-menu text-center">Главная</a>
-                <a href="page-services.php" class="item-menu text-center">Услуги</a>
-                <a href="page-equipment.php" class="item-menu text-center">Оборудование</a>
-                <a href="page-contacts.php" class="item-menu text-center">Контакты</a>
+                <a href="/" class="item-menu text-center">Главная</a>
+                <a href="services" class="item-menu text-center">Услуги</a>
+                <a href="equipment" class="item-menu text-center">Оборудование</a>
+                <a href="contacts" class="item-menu text-center">Контакты</a>
             </div>
         </div>
     </div>
