@@ -1,11 +1,19 @@
 function changeColorMenuItem () {
 	var location = window.location.href;  
-	$('.menu-wrapper a').each(function () {  
-	    var link = $(this).attr('href');
-	    if (location == link) { 
-	        $(this).addClass('change-color');                
-	    }
-	});
+	var color = '#7B2566';
+
+	if ( location.match(/local\/$/) ) {
+		$('#main-menu-item').css('background-color', color);
+	}
+	if ( location.match(/services/) ) {
+		$('#services-menu-item').css('background-color', color);		
+	}
+	if ( location.match(/equipment/) ) {
+		$('#equipment-menu-item').css('background-color', color);		
+	}
+	if ( location.match(/contacts/) ) {
+		$('#contacts-menu-item').css('background-color', color);		
+	}
 }
 
 

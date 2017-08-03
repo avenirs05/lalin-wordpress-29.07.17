@@ -122,7 +122,7 @@ a {
 
 .menu-wrapper a:hover {
 	text-decoration: none;
-	background-color: #7B2566;
+	background-color: #7B254C;;
 	color: #fff;
 }
 
@@ -717,6 +717,10 @@ table.actions-limf-str {
 
 .thank-you {
 	margin-bottom: 20px;
+}
+
+.change-color {
+	background-color: #7B2566;
 }
 
 /*Модальное окно Bootstrap*/

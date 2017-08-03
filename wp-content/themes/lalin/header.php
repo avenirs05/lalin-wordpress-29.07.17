@@ -68,10 +68,10 @@
                     </div>
                 </div>
                 <div class="menu-wrapper text-right">
-                    <a href="/index.php" target="_blank">Главная</a>
-                    <a href="/services" target="_blank">Услуги</a>
-                    <a href="/equipment" target="_blank">Оборудование</a>
-                    <a href="/contacts" target="_blank">Контакты</a>
+                    <a id="main-menu-item" href="/index.php" target="_blank">Главная</a>
+                    <a id="services-menu-item" href="/services" target="_blank">Услуги</a>
+                    <a id="equipment-menu-item" href="/equipment" target="_blank">Оборудование</a>
+                    <a id="contacts-menu-item" href="/contacts" target="_blank">Контакты</a>
                 </div> 
             </div> 
         </div>
