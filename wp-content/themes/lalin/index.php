@@ -63,6 +63,10 @@
     <button class="btn-callback" id="btn-get-consult-mob">Получить консультацию</button>
 </div>
 
+<div class="container-fluid main-branch visible-xs-block visible-sm-block">
+    <h3 class="main-branch text-center">Клиника №1 ЛаЛин специализируется на <strong>эстетической (терапевтической)</strong> медицине. Приоритетным направлением клиники является лазерная косметология.</h3><hr>
+</div>
+
 <div class="container-fluid we-moved">
     <h3 class="text-center"><span class="attention-text">Внимание!</span> Мы <a href="#" target="_blank">переехали</a> на новый адрес: г. Ростов-на-Дону, ул. 1-я Круговая, 91.</h3>
 </div>
@@ -166,6 +170,5 @@
     ?> 
     <p class="visible-md-block visible-lg-block">&nbsp;</p>       
 </div>
-<?php echo $_SERVER['QUERY_STRING']; ?>
-<?php echo $_SERVER['REQUEST_URI']; ?>
+
 <?php get_footer(); ?> 

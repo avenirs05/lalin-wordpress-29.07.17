@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <meta name="format-detection" content="telephone=no">
     
-    <!-- <title>Клиника №1 ЛаЛин</title> -->
     <title><?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">

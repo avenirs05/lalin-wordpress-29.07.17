@@ -52,8 +52,8 @@ require_once 'functions.php';
 
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$to = 'info@veter61.ru';
-$subject = "Заявка с сайта veter61.ru";
+$to = 'jackweb365@gmail.com, yanaros@ya.ru';
+$subject = "Заявка с сайта лалин.рф";
 
 if (isset($_GET['submit-free-consult'])) {  
     $message = '<html><head><title></title></head><body>
