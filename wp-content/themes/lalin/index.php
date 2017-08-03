@@ -166,5 +166,6 @@
     ?> 
     <p class="visible-md-block visible-lg-block">&nbsp;</p>       
 </div>
-
+<?php echo $_SERVER['QUERY_STRING']; ?>
+<?php echo $_SERVER['REQUEST_URI']; ?>
 <?php get_footer(); ?> 

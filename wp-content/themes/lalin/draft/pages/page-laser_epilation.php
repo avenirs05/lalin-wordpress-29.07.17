@@ -6,7 +6,8 @@
         	<?php require_once 'sidebar.php'; ?>
         </div>
         <div class="col-md-8 page-content">
-        	Фото эпиляция
+        	<?php echo $_SERVER['QUERY_STRING']; ?>
+        	Лазерная эпиляция
         	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa in modi, quo recusandae, porro voluptas pariatur at quas, inventore, illo commodi unde officia fugit reiciendis officiis praesentium neque nulla. Nulla.lorem
         </div>
     </div>
