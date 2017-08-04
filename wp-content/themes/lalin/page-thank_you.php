@@ -38,7 +38,7 @@
         <div class="col-md-12">
             <div class="thank-you text-center">
                 <span>Спасибо за обращение! С вами свяжутся в ближайшее время!</span><br>
-                <span>Вернуться на <a href="index.php">Главную.</a></span>
+                <span>Вернуться на <a href="/">Главную.</a></span>
             </div>
         </div>
     </div>

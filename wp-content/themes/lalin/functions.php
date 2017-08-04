@@ -11,19 +11,19 @@
 
 // add_action('wp_enqueue_scripts', 'load_style_scripts');
 
-wp_enqueue_script('jquery');
+// wp_enqueue_script('jquery');
 
-register_sidebar( array(
-	'name'          => 'menu',
-	'id'            => 'menu-header',
-) );
+// register_sidebar( array(
+// 	'name'          => 'menu',
+// 	'id'            => 'menu-header',
+// ) );
 
-register_sidebar(array(
-	'name'          => 'right-page',
-	'id'            => 'right-page-list',
-	'before_widget' => '',
-	'after_widget'  => '',
-));
+// register_sidebar(array(
+// 	'name'          => 'right-page',
+// 	'id'            => 'right-page-list',
+// 	'before_widget' => '',
+// 	'after_widget'  => '',
+// ));
 
 add_theme_support('post-thumbnails');
 
