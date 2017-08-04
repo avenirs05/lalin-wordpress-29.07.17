@@ -907,6 +907,9 @@ table.actions-limf-str {
 		margin-bottom: 25px;
 		font-size: 24px;
 	}
+	.we-moved h3 {
+    	margin-top: 0;
+	}
 }
 
 @media screen and (min-device-width: 360px) {
@@ -1063,6 +1066,9 @@ table.actions-limf-str {
 	    margin-right: 10px;;
 	    margin-top: 0;
 	    margin-bottom: 0;
+	}
+	.we-moved h3 {
+    	margin-top: 20px;
 	}
 
 }

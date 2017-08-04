@@ -48,11 +48,10 @@
 
 <?php 
 require_once 'functions.php';
-// print_r($_POST);
 
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$to = 'jackweb365@gmail.com, yanaros@ya.ru';
+$to = 'jackweb365@gmail.com';
 $subject = "Заявка с сайта лалин.рф";
 
 if (isset($_GET['submit-free-consult'])) {  

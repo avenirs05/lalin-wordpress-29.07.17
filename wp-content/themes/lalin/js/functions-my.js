@@ -2,7 +2,7 @@ function changeColorMenuItem () {
 	var location = window.location.href;  
 	var color = '#7B2566';
 
-	if ( location.match(/local\/$/) ) {
+	if ( location.match(/ru\/$/) ) {
 		$('#main-menu-item').css('background-color', color);
 	}
 	if ( location.match(/services/) ) {

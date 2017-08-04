@@ -137,7 +137,7 @@
                 <tr class="text-center">
                     <td id="limf-cell"><span class="bold">ЛИМФОСТАЗ ПОСЛЕ МАСТЭКТОМИИ</span><br>
                     — эффективное лечение и реабилитация.<br> 
-                    Рекомендуется курс <a href="#" target="_blank">прессотерапии</a> 10-15 процедур.
+                    Рекомендуется курс <a href="press_therapy" target="_blank">прессотерапии</a> 10-15 процедур.
                     </td>
                     <td id="empty-cell">
                     </td>

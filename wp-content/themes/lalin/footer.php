@@ -12,7 +12,7 @@
                                                   вс.: с 09-00 до 17-00<br>
                </span>            
             </p>
-            <p><span class="red"><a href="page-licenses.php" target="_blank">Банковские реквизиты, лицензия</a></p>
+            <p><span class="red"><a href="/licenses" target="_blank">Банковские реквизиты, лицензия</a></p>
     		</div>
 	  </div>
     <div class="callback-contacts-wrap-mob visible-xs-block visible-sm-block">
@@ -28,7 +28,7 @@
                                                   вс.: с 09-00 до 17-00<br>                            
                </span>            
             </p>
-            <p><span class="red"><a href="page-licenses.php" target="_blank">Банковские реквизиты, лицензия</a></p>
+            <p><span class="red"><a href="/licenses" target="_blank">Банковские реквизиты, лицензия</a></p>
         </div>
     </div>
     <div class="visible-md-block visible-lg-block">
